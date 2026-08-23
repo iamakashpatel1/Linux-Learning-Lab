@@ -1,0 +1,19 @@
+# Day 01 — Linux Basics
+
+Linux is a free and open-source operating system based on Unix kernel.
+Created by Linus Torvalds in 1991.
+It is more stable and secure system.It is listed under GNU General Public License.
+
+###About Shell
+Several kinds of SHELL.
+1. sh - Bourne shell is the oldest(1970).
+2. bash - Bourne-Again Shell is default shell for most linux.
+3. zsh- Z shell improve vershion of bash.
+4. shh - like sh(Bourne shell but more earlier version).
+5. ksh - Korn shell
+6. csh - C shell
+7. tcsh - improve version of csh shell.
+
+### What command I learn.
+1. echo $SHELL - return default or preferred shell.
+2. echo $0 - return to current shell. 

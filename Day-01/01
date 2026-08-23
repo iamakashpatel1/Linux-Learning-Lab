@@ -17,3 +17,14 @@ Several kinds of SHELL.
 ### What command I learn.
 1. echo $SHELL - return default or preferred shell.
 2. echo $0 - return to current shell. 
+3. ls - list the directory and files in current user
+4. ls -l - long formated list with permission of file list
+5. ls -a - list all hidden files
+6 ls -lh - list in human readable form 
+7. pwd - print working directory
+8. clear - clear the terminal
+9. history - keeps history of all run command
+10. cd <directory>- change directory
+11. cd .. - go bak to directory.
+12. man <command> - gives the information about the command
+13 info <command> - gives the information of the command.

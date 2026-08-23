@@ -27,4 +27,7 @@ Several kinds of SHELL.
 10. cd <directory>- change directory
 11. cd .. - go bak to directory.
 12. man <command> - gives the information about the command
-13 info <command> - gives the information of the command.
+13. info <command> - gives the information of the command.
+14. alias ld='ls -a' - create the short form of ls -a
+15. /etc/bashrc - location of default alias
+16. ~/.bashrc - user created alias

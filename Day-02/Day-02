@@ -67,3 +67,21 @@ Systemctl control the daemon process(process name followed by 'd',) like ntpd, d
 
 To check the status of process 
 - systemctl status <process>
+
+
+### Shut Down the Linux system usuing Shell command ###
+halt - shuts a system down 
+reboot - restart a system 
+Shutdown
+- -c cancle the shutdown
+ - -H halts a system(-P invokes a poweroff)
+ - -r reboot a system
+ - -Time 
+       - +60 <prompt the user about shutdown message> - specify in 60min
+       - now - specify now.
+
+## Wall command 
+This send message to all logged in user.
+- wall 'The system will be shut down on sunday.'
+- wall <message file>
+- wall -n <message file> - hide the root user.

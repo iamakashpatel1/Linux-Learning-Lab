@@ -23,3 +23,9 @@ File Hierarchy System (FHS)
 1. grep -i word file.txt - finds the line that contain that word.
 2. egrep or grep-E - is use to look in error files to look for troubleshoot.
 3. diff file1.txt file2.txt - finds the difference between two files.
+
+
+####Linu Boot Process
+1. Hardware boot phase
+2. Bootloader phase
+3. Kernel phase

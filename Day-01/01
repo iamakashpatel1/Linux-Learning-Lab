@@ -87,3 +87,11 @@ Piping helps to specify what to do with the command.
 34. rmdir /text - remove and empty directory.
 35. rm -i - remove directory and files within directory with prompts
 36. rm -rf - remove without prompt
+
+# Link
+ln -s  - used to create symbolic link
+ln - used to create hard link 
+both used to point or give access to file or directory to user to make modify.
+
+ln -s /home/file2.txt /root/file1.txt  ***file1 is linked to file2
+ln /home/file2.txt /root/file1.txt  *** this is hard link

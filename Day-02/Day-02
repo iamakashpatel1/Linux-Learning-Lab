@@ -58,3 +58,12 @@ Updating GRUB
 2. update-grub2
 3. grub-mkconfig
 4. grub2-mkconfig
+
+Daemon - this are the other program that define how the system work. This are often configure when the system boots.
+
+Systemctl control the daemon process(process name followed by 'd',) like ntpd, dhcpd, sshd
+- systemctl start <process> or systemctl stop <process>
+- example systemctl start ntpd
+
+To check the status of process 
+- systemctl status <process>

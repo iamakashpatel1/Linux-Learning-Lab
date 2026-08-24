@@ -15,7 +15,7 @@ Several kinds of SHELL.
 7. tcsh - improve version of csh shell.
 
 ### What command I learn.
-1. echo $SHELL - return default or preferred shell.
+1. echo $SHELL - return default or preferred shell.   ### echo $PATH - gives all the system directory files name like /bin /sbin/ log
 2. echo $0 - return to current shell. 
 3. ls - list the directory and files in current user
 4. ls -l - long formated list with permission of file list

@@ -69,3 +69,10 @@ Piping helps to specify what to do with the command.
 
 22. cat file.txt | grep a - this will open the file.txt and just display the lines which have a (grep help to grab the specific value)
 23. ls -a | tee redirect.txt - first display the value and the redirect the value to the file.
+24. cat file.txt|more - help to view the content of file but only one direct down words.
+25. cat file.txt|less - help to view the content of file updown all direction.
+
+
+26. head file.txt - give first 10 lines of the file.
+27. tail file.txt - give last 10 lines of the file.
+28. tail -f file.txt - give the lastest modified lines of the file.

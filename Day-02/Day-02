@@ -38,3 +38,23 @@ File Hierarchy System (FHS)
 6. Then the kernel dismounts and distroy the RAM disk to be used for system memory.
 7. At the last kernel initialize system and load systemd
 
+
+First program when the system is booted is GRUB2 Grand Unified Bootloader.
+GRUB
+-responsible to choose which operating system to load when the system is boot.
+
+IT work in 2 phases
+
+1. Stage 1 - GRUB is simply store in Master Boot Record(MBR) for BIOS.
+2. Stage 2 - Stage 1 just load the grub and send it to stage 2 where user can choose the operating system.
+
+## GRUB2 configuration file are present in..
+1. /boot/grub/grub.cfg - update-grub and shell scripts 
+2. /etc/grub.d - GRUB scripts
+3. /etc/default/grub  - GRUB menu settings.
+
+Updating GRUB
+1. update-grub
+2. update-grub2
+3. grub-mkconfig
+4. grub2-mkconfig

@@ -15,5 +15,5 @@ File Hierarchy System (FHS)
 ### What I learned today..
 1. which <command> - which look for the directory from where the command is execuated.
 2. whereis <command> - look for the full path for the file or directory from where the command is execuated.
-3. find <command> - find the location 
-4. locate <command> - also finds the index of the file.
+3. find /home -name file.txt - find the location  of a file in home directory and through all the home directory
+4. locate file.txt - also finds the index of the file.

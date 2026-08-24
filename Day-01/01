@@ -31,3 +31,13 @@ Several kinds of SHELL.
 14. alias ld='ls -a' - create the short form of ls -a
 15. /etc/bashrc - location of default alias
 16. ~/.bashrc - user created alias
+
+Environment Variable (env)
+name='vale'
+export name
+this how the variable is created and export to use it through currrent login.
+
+17. env - use to see all default environment variable.
+To create default env we need to change the configration file. 
+/etc/environment - for all user and shell
+/etc/profile - for all user only during interactive login.

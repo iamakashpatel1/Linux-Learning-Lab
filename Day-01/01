@@ -80,5 +80,6 @@ Piping helps to specify what to do with the command.
 
 ### File management
 29. cp file1.txt file2.txt - copy the content of file1 to file2
-30. mv /a/file.txt /b - this moves file.txt from /a ditectory to /b and delete it from /a
+30. mv /a/file.txt /b - this moves file.txt from /a ditectory to /b and delete it from /a but not permanently still files are found in harddrive
 31. mv file1.txt file2.txt - this change the name of the file
+32. shred -u file.txt - delete the file permanently.

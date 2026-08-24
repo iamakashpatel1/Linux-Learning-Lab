@@ -38,6 +38,22 @@ File Hierarchy System (FHS)
 6. Then the kernel dismounts and distroy the RAM disk to be used for system memory.
 7. At the last kernel initialize system and load systemd
 
+The OS kernel stage loads and executes the initial (init) process. During this stage, the Linux kernel:
+
+Resides in the /boot directory.
+Initializes the hardware on the system.
+Locates and loads the initrd script to access the linuxrc program, which configures the operating system.
+Dismounts and erases the RAM disk image (initrd image).
+Looks for new hardware and loads the drivers.
+Mounts the root partition.
+Loads and executes the initial process (init or systemd).
+
+The BIOS is responsible for verifying system hardware, reading settings from the CMOS, detecting hardware changes, and passing control of the system to the bootloader. The initrd image is used to mount the actual file system and loads the kernel into RAM. The primary bootloader takes one of two actions:
+
+Examines the partition table marked as bootable and then loads the boot sector from that partition. This boot sector contains a secondary bootloader, which locates an OS kernel.
+
+Locates an OS kernel directly without using a secondary bootloader
+
 
 First program when the system is booted is GRUB2 Grand Unified Bootloader.
 GRUB

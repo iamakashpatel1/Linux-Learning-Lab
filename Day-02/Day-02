@@ -51,7 +51,7 @@ IT work in 2 phases
 ## GRUB2 configuration file are present in..
 1. /boot/grub/grub.cfg - update-grub and shell scripts 
 2. /etc/grub.d - GRUB scripts
-3. /etc/default/grub  - GRUB menu settings.
+3. /etc/default/grub  - GRUB menu settings. help for customization
 
 Updating GRUB
 1. update-grub

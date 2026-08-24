@@ -17,3 +17,9 @@ File Hierarchy System (FHS)
 2. whereis <command> - look for the full path for the file or directory from where the command is execuated.
 3. find /home -name file.txt - find the location  of a file in home directory and through all the home directory
 4. locate file.txt - also finds the index of the file.
+
+
+## Some great utilities or commands
+1. grep -i word file.txt - finds the line that contain that word.
+2. egrep or grep-E - is use to look in error files to look for troubleshoot.
+3. diff file1.txt file2.txt - finds the difference between two files.

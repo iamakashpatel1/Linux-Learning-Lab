@@ -83,3 +83,7 @@ Piping helps to specify what to do with the command.
 30. mv /a/file.txt /b - this moves file.txt from /a ditectory to /b and delete it from /a but not permanently still files are found in harddrive
 31. mv file1.txt file2.txt - this change the name of the file
 32. shred -u file.txt - delete the file permanently.
+33. mkdir /text - make a directory.
+34. rmdir /text - remove and empty directory.
+35. rm -i - remove directory and files within directory with prompts
+36. rm -rf - remove without prompt

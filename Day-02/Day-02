@@ -10,3 +10,10 @@ File Hierarchy System (FHS)
 /temp - is the directory that contain temperory file.
 /proc - this contain the information about the process and system
 /sys - contain information about device and drive.
+
+
+### What I learned today..
+1. which <command> - which look for the directory from where the command is execuated.
+2. whereis <command> - look for the full path for the file or directory from where the command is execuated.
+3. find <command> - find the location 
+4. locate <command> - also finds the index of the file.

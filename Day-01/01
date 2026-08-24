@@ -76,3 +76,9 @@ Piping helps to specify what to do with the command.
 26. head file.txt - give first 10 lines of the file.
 27. tail file.txt - give last 10 lines of the file.
 28. tail -f file.txt - give the lastest modified lines of the file.
+
+
+### File management
+29. cp file1.txt file2.txt - copy the content of file1 to file2
+30. mv /a/file.txt /b - this moves file.txt from /a ditectory to /b and delete it from /a
+31. mv file1.txt file2.txt - this change the name of the file

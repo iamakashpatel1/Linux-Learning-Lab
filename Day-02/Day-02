@@ -25,7 +25,16 @@ File Hierarchy System (FHS)
 3. diff file1.txt file2.txt - finds the difference between two files.
 
 
-####Linu Boot Process
+####  Linu Boot Process  ###
 1. Hardware boot phase
 2. Bootloader phase
 3. Kernel phase
+
+1. When the system is power on the BIOS check the hardware weather the hardware are working good or not.
+2. Then the control is passed to bootloader which load the require code to boot the system.
+3. Boatloader takes the part of RAM disk and load the code(initrd or initramf)
+4. Then it load basic OS and specific hardware drivers then the control is passed to kernel.
+5. Now the kernel uses the RAM disk to start the OS and load daemon and other program.
+6. Then the kernel dismounts and distroy the RAM disk to be used for system memory.
+7. At the last kernel initialize system and load systemd
+

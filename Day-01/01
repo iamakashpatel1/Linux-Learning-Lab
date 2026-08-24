@@ -63,3 +63,9 @@ To create default env we need to change the configration file.
 19. data 1>>file_name.txt - this doesn't overwrite but append the output to file.
 20. data 1>>output_name.txt 2>>error_name.txt  - append output respectively output in output_name.txt and error in error_name.txt
 21. ls error_name.txt error.txt >> newfile.txt 2>&1 - this give both error and output message at the same life newfile.txt. 
+
+### Piping
+Piping helps to specify what to do with the command.
+
+22. cat file.txt | grep a - this will open the file.txt and just display the lines which have a (grep help to grab the specific value)
+23. ls -a | tee redirect.txt - first display the value and the redirect the value to the file.

@@ -41,3 +41,14 @@ this how the variable is created and export to use it through currrent login.
 To create default env we need to change the configration file. 
 /etc/environment - for all user and shell
 /etc/profile - for all user only during interactive login.
+
+#### Shell Configuration files
+1. Non-Login Shell
+- /etc/bashrc   and  /etc/bash.bashrc  apply to non login shell
+
+2. Login Shell (. (dot indicate the hidden file))
+- /etc/profile
+- ~/.bash_profile
+- ~/.bash_login
+- ~/.profile
+- ~/.bash_logout

@@ -1,1 +1,12 @@
 Day-02 Linux File System
+
+File Hierarchy System (FHS)
+/bin - contain binary command for all users
+/sbin - system binary command for all users (we don't need to create command just need to run those which are already in system)
+/root - is the root directory for users
+/boot - this directory contain all the file and requirement this for bootloader.
+/var - this directory contain all the log files , user mailbox.
+/dev - this directory contain the hardware information of system
+/temp - is the directory that contain temperory file.
+/proc - this contain the information about the process and system
+/sys - contain information about device and drive.

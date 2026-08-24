@@ -52,3 +52,14 @@ To create default env we need to change the configration file.
 - ~/.bash_login
 - ~/.profile
 - ~/.bash_logout
+
+
+### Redirection
+0 - stdin
+1 - stdout
+2 - stderr
+
+18. data 1>file_name.txt - this overwrite the file of data command in file_name.txt if exist if not exist create one
+19. data 1>>file_name.txt - this doesn't overwrite but append the output to file.
+20. data 1>>output_name.txt 2>>error_name.txt  - append output respectively output in output_name.txt and error in error_name.txt
+21. ls error_name.txt error.txt >> newfile.txt 2>&1 - this give both error and output message at the same life newfile.txt. 

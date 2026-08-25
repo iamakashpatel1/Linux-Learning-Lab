@@ -22,11 +22,15 @@ To install any software packages or services we need a package manager. A packag
 
 3. Debian Package Manager (dpkg)
 - command = dpkg option <action> <package_name>
-- dpkg -i packagename - install
-- dpkg -p packagename - view the package
-- dpkg -r packagename - this will uninstall the package but it will not the dependencis are weather affected to other files or not soooo....
-- apt -r packagename - this check the dependence and the uninstall safly
+- dpkg -i packagename full path - install
+- dpkg -p packagename full path - view the package
+- dpkg -r packagename full path - this will uninstall the package but it will not the dependencis are weather affected to other files or not soooo....
+- apt -r packagename full path - this check the dependence and the uninstall safly
 - dpkg -l to list the all packages.
+
+as dpkg needs package name to be specified we use
+apt install package name.
+
 
 - apt-cache pkgnames <packagename> - to check the package if installed or not
 - apt-cache showpkg <packagename> - to see the package

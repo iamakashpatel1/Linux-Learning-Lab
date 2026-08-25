@@ -1,1 +1,25 @@
+### Software Installation
 
+# What I learn today.
+To install any software packages or services we need a package manager. A package manager takes care of the software packages.
+
+1. Red Hat Package Manager (RPM)
+-Whenever a package is install or manage it is done in /var/lib/rpm.
+- rpm -ihv install packagename (don't install the dependencies which are not already available)
+-They are specific to the distro.
+- rpm check the package and all it dependencies.
+- rpm -i --test <packagename>
+- If missing some dependecies then it will so and error and we can install that package.
+
+2. Yellowdog Updater, Modified (YUM)
+- Made for redhat and specific distro but we can use zypper for open SUSE
+- yum install packagename (install the package and all it dependencis)
+- yumdownloader <packagename> this download the package but not install it.
+- yum list installed packagename to see the package
+- There is another package manager call dnf work same as yum but used for more distro.
+- dnf list - to see the packages.
+- dnf erase <package name> - to delete
+
+3. Debian Package Manager (dpkg)
+- command = dpkg option <action> <package_name>
+- dpkg -i packagename 

@@ -6,6 +6,7 @@ To install any software packages or services we need a package manager. A packag
 1. Red Hat Package Manager (RPM)
 -Whenever a package is install or manage it is done in /var/lib/rpm.
 - rpm -ihv install packagename (don't install the dependencies which are not already available)
+- rpm -U <packagename> -upgrade the package install the new and remove the old
 - rpm -F <packagename> - upgrade package
 -They are specific to the distro.
 - rpm check the package and all it dependencies.

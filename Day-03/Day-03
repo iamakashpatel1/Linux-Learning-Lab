@@ -17,6 +17,7 @@ To install any software packages or services we need a package manager. A packag
 - yumdownloader <packagename> this download the package but not install it.
 - yum list installed packagename to see the package
 - There is another package manager call dnf work same as yum but used for more distro.
+-dnf install pakagename
 - dnf list - to see the packages.
 - dnf erase <package name> - to delete
 

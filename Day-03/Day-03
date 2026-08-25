@@ -27,3 +27,7 @@ To install any software packages or services we need a package manager. A packag
 - dpkg -r packagename - this will uninstall the package but it will not the dependencis are weather affected to other files or not soooo....
 - apt -r packagename - this check the dependence and the uninstall safly
 - dpkg -l to list the all packages.
+
+- apt-cache pkgnames <packagename> - to check the package if installed or not
+- apt-cache showpkg <packagename> - to see the package
+- apt-cache depends <packagenname> - to see its dependencis

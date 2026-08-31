@@ -1,1 +1,52 @@
+File System and Storage.
 
+The basic process for adding storage to system is:
+- install the drive 
+- partition it
+- add a filesystem and then mount it
+
+All hardware device are mappeed to the /dev directory. Storage disk are displayed there using the sd string.
+
+## hwinfo command - dispplay detail about system component.
+hwinfo --storage = display storage controllers.
+hwinfo --block = display in storage disk and partitions.
+
+## lsblk command - display information about the storage device the system is aware of.
+
+## MBR - Master Boot Record
+This help to partition the harddrive, we can also use GUID.
+
+## fdisk command help to do partition.Its a menu driven command.
+
+## Parted utility is another good partition management tool in line with fdisk.
+
+### growpart - utility is used to extend the partition
+
+After partition are created they needed to be update.
+- partprobe command scan storage disk and partition changes
+- Partion information are store in file name /proc/partitions
+
+### blkid - display the UUID of the partitions.
+
+####################################################################################
+
+After creating partition we need to add file systemto organize storage of data.
+-There are two type of filesystem in linux mostly used 
+1. ext4 
+2. XFS
+
+*** ext4 ***
+# We use mkfs - make filesystem command to new portion created on disk.
+example - mkfs.ext4 /dev/sdb2. or mkfs -t /dev/sdb2
+
+if the portion is not new mkfs overwrite in the portition
+
+### XFS has more advantages over ext4 
+1. XFS recognizes a larger partition size
+2. XFS recognizes a larger file size.
+3. XFS avoids inode exhaustion.
+
+
+### fsck - to check and repair the file system
+_ This only work when the filesystem is unmount 
+fsck -y /dev/sdb2 will check and repair the file system.
